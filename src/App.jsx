@@ -245,7 +245,7 @@ function App() {
                       originalPrice="R$ 2.299,00"
                       rating={4.6}
                       reviews={8930}
-                      image="https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?w=400&h=300&fit=crop"
+                      image="https://files.manuscdn.com/user_upload_by_module/session_file/119119595/BlgrJkyCNHfBrCze.jpg"
                       amazonLink="https://www.amazon.com.br/s?k=samsung+galaxy+watch+6"
                       compact={true}
                     />
@@ -327,7 +327,7 @@ function App() {
                 {
                   name: "Galaxy Watch 5",
                   price: "R$ 1.599,00",
-                  image: "https://images.unsplash.com/photo-1579586337278-3f436f25d4d6?w=200&h=200&fit=crop"
+                  image: "https://files.manuscdn.com/user_upload_by_module/session_file/119119595/BlgrJkyCNHfBrCze.jpg"
                 },
                 {
                   name: "Amazfit GTR 4",
