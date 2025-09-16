@@ -92,10 +92,10 @@ function App() {
       <section className="bg-gradient-to-r from-blue-600 to-purple-600 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl md:text-6xl font-bold mb-6">
-            Descubra o Smartwatch Perfeito
+            👉 Encontre o Smartwatch Ideal em Minutos
           </h2>
           <p className="text-lg md:text-xl mb-8 text-blue-100 max-w-4xl mx-auto leading-relaxed text-center">
-            Bem-vindo ao seu guia definitivo sobre smartwatches! Aqui você encontra análises detalhadas, comparativos objetivos e dicas práticas para escolher o modelo ideal. Nosso propósito é ajudar você a tomar decisões seguras e inteligentes, reunindo informação confiável, tendências do mercado e as melhores ofertas em um só lugar.
+            Comparativos claros, análises completas e as melhores ofertas em um só lugar. Decida com segurança e aproveite descontos exclusivos!
           </p>
         </div>
       </section>
