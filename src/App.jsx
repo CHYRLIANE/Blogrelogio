@@ -103,26 +103,52 @@ function App() {
       {/* Flash Sale Banner */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <AmazonBanner
-          type="flash-sale"
           title="🔥 Ofertas Relâmpago de Smartwatches!"
           subtitle="Descontos de até 40% nos melhores modelos"
-          discount="40"
-          timeLimit="23h 45min"
+          countdown="23h 45min"
+          discount="40% OFF"
           amazonLink="https://www.amazon.com.br/s?k=smartwatch"
           ctaText="Ver Todas as Ofertas"
         />
       </div>
 
+      {/* Sticky Navigation */}
+      <div className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
+            <TabsList className="grid w-full grid-cols-4 bg-transparent border-0 h-auto p-0">
+              <TabsTrigger 
+                value="reviews" 
+                className="data-[state=active]:bg-blue-600 data-[state=active]:text-white bg-gray-100 text-gray-700 border border-gray-300 rounded-none first:rounded-l-lg last:rounded-r-lg py-3 px-4 font-medium transition-all duration-200 hover:bg-gray-200 data-[state=active]:hover:bg-blue-700"
+              >
+                Reviews
+              </TabsTrigger>
+              <TabsTrigger 
+                value="comparison"
+                className="data-[state=active]:bg-orange-600 data-[state=active]:text-white bg-gray-100 text-gray-700 border border-gray-300 rounded-none py-3 px-4 font-medium transition-all duration-200 hover:bg-gray-200 data-[state=active]:hover:bg-orange-700"
+              >
+                Comparações
+              </TabsTrigger>
+              <TabsTrigger 
+                value="guides"
+                className="data-[state=active]:bg-purple-600 data-[state=active]:text-white bg-gray-100 text-gray-700 border border-gray-300 rounded-none py-3 px-4 font-medium transition-all duration-200 hover:bg-gray-200 data-[state=active]:hover:bg-purple-700"
+              >
+                Guias
+              </TabsTrigger>
+              <TabsTrigger 
+                value="offers"
+                className="data-[state=active]:bg-teal-600 data-[state=active]:text-white bg-gray-100 text-gray-700 border border-gray-300 rounded-none first:rounded-l-lg last:rounded-r-lg py-3 px-4 font-medium transition-all duration-200 hover:bg-gray-200 data-[state=active]:hover:bg-teal-700"
+              >
+                Ofertas
+              </TabsTrigger>
+            </TabsList>
+          </Tabs>
+        </div>
+      </div>
+
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
         <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
-          <TabsList className="grid w-full grid-cols-4">
-            <TabsTrigger value="reviews">Reviews</TabsTrigger>
-            <TabsTrigger value="comparison">Comparações</TabsTrigger>
-            <TabsTrigger value="guides">Guias</TabsTrigger>
-            <TabsTrigger value="offers">Ofertas</TabsTrigger>
-          </TabsList>
-
           <TabsContent value="reviews" className="space-y-8">
             <div className="text-center mb-8">
               <h3 className="text-3xl font-bold text-gray-900 mb-4">
