@@ -29,7 +29,7 @@ function App() {
       originalPrice: "R$ 2.299,00",
       rating: 4.6,
       reviews: 8930,
-      image: "https://files.manuscdn.com/user_upload_by_module/session_file/119119595/PjOMIIuFpvsZFmIZ.jpg",
+      image: "https://files.manuscdn.com/user_upload_by_module/session_file/119119595/BlgrJkyCNHfBrCze.jpg",
       amazonLink: "https://www.amazon.com.br/s?k=samsung+galaxy+watch+6",
       badge: "Oferta",
       description: "Smartwatch Android com excelente autonomia e recursos de saúde."
